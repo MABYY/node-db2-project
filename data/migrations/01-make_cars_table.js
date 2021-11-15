@@ -1,4 +1,4 @@
-exports.up = function (knex) {
+exports.up = function (knex) { // dependency injection
   // DO YOUR MAGIC
   return knex.schema.createTable( 'cars', tbl =>{
     tbl.increments() // creates an id column that auto increments
